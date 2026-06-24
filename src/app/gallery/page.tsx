@@ -61,19 +61,19 @@ export default function GalleryPage() {
                 className="group relative aspect-[4/3] rounded-xl overflow-hidden cursor-pointer"
               >
                 <Image
-                  src={
-                    [
-                      "/images/about-section.jpg",
-                      "/images/commercial-lighting.jpg",
-                      "/images/craftsman-home.jpg",
-                      "/images/gallery-1.jpg",
-                      "/images/gallery-2.jpg",
-                      "/images/gallery-3.jpg",
-                      "/images/about-section.jpg",
-                      "/images/commercial-lighting.jpg",
-                      "/images/craftsman-home.jpg",
-                    ][i]
-                  }
+                src={
+                  [
+                    "/images/about-section.jpg",
+                    "/images/commercial-lighting.jpg",
+                    "/images/craftsman-home.jpg",
+                    "/images/gallery-1.jpg",
+                    "/images/gallery-2.jpg",
+                    "/images/gallery-3.jpg",
+                    "/images/gallery-4.jpg",
+                    "/images/gallery-5.jpg",
+                    "/images/gallery-6.jpg",
+                  ][i]
+                }
                   alt={project.name}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
