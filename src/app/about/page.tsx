@@ -57,10 +57,10 @@ export default function AboutPage() {
                   { value: "4.6/5", label: "Google Rating" },
                 ].map((stat) => (
                   <div key={stat.label} className="bg-gray-50 rounded-xl py-3 px-2 sm:py-4 sm:px-3 text-center border border-gray-100">
-                    <div className="text-lg sm:text-xl lg:text-2xl font-bold text-gold-600 whitespace-nowrap">
+                    <div className="text-base sm:text-lg lg:text-xl font-bold text-gold-600 whitespace-nowrap">
                       {stat.value}
                     </div>
-                    <div className="text-xs text-gray-500 mt-1">{stat.label}</div>
+                    <div className="text-xs text-gray-500 mt-0.5">{stat.label}</div>
                   </div>
                 ))}
               </div>

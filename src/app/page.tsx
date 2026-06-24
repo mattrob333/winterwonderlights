@@ -74,10 +74,10 @@ export default function Home() {
                     key={stat.label}
                     className="bg-white/5 backdrop-blur-sm rounded-xl py-3 px-2 sm:py-5 sm:px-4 text-center border border-white/10"
                   >
-                    <div className="text-lg sm:text-2xl lg:text-3xl font-bold text-gold-400 whitespace-nowrap">
+                    <div className="text-base sm:text-xl lg:text-2xl font-bold text-gold-400 whitespace-nowrap">
                       {stat.value}
                     </div>
-                    <div className="text-xs sm:text-sm text-gray-400 mt-1">{stat.label}</div>
+                    <div className="text-xs sm:text-sm text-gray-400 mt-0.5">{stat.label}</div>
                   </div>
                 ))}
               </div>
