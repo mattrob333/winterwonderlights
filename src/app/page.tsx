@@ -11,6 +11,7 @@ export default function Home() {
           src="/images/hero-bg.jpg"
           alt="Luxury home with professional holiday lighting"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
@@ -186,6 +187,7 @@ export default function Home() {
                 src="/images/about-section.jpg"
                 alt="Luxury home exterior with professional holiday lighting"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
@@ -331,6 +333,7 @@ export default function Home() {
                 src="/images/craftsman-home.jpg"
                 alt="Inviting home with professional holiday lighting"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
@@ -429,6 +432,7 @@ export default function Home() {
                   src={img.src}
                   alt={img.alt}
                   fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>

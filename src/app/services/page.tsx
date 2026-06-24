@@ -142,7 +142,7 @@ export default function ServicesPage() {
                   </ul>
                 </div>
                 <div
-                  className={`relative aspect-[4/3] rounded-2xl overflow-hidden ${
+                  className={`relative w-full aspect-[4/3] rounded-2xl overflow-hidden ${
                     i % 2 === 1 ? "lg:col-start-1" : ""
                   }`}
                 >
@@ -159,6 +159,7 @@ export default function ServicesPage() {
                     }
                     alt={service.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                 </div>

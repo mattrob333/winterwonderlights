@@ -68,6 +68,7 @@ export default function AboutPage() {
                 src="/images/about-section.jpg"
                 alt="Winter Wonder Lights team and property"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
