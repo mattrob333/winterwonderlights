@@ -242,7 +242,7 @@ export default function Home() {
                 desc: "If you experience any issues during the season, just call, text, or email us and we'll schedule a repair promptly. We'll replace bulbs at no charge for events.",
                 icon: (
                   <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-7.25 7.25a2.119 2.119 0 01-3-3l7.25-7.25m3.24 3.24a7.5 7.5 0 00-3.24-9.61 6.6 6.6 0 01-.24 1.5 5.25 5.25 0 006.6 6.6 6.6 6.6 0 01-1.5.24l.24.01zm1.5 1.5a7.5 7.5 0 009.61-3.24 6.6 6.6 0 01-1.5-.24 5.25 5.25 0 00-6.6 6.6 6.6 6.6 0 01.24 1.5l.25-.01z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                   </svg>
                 ),
               },
@@ -251,9 +251,7 @@ export default function Home() {
                 desc: "We use commercial-grade lighting supplies with custom-fitted lights for each section. All electrical work is handled by our trained team with light-sensitive timers.",
                 icon: (
                   <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c.076.73.034 1.472-.13 2.195a3.001 3.001 0 00-3.653 3.653c-.723.164-1.464.206-2.195.13a4.5 4.5 0 014.484-4.884 4.5 4.5 0 00-4.087-3.836 2.999 2.999 0 00-3.653-3.653 5.294 5.294 0 01-.13-2.195A4.5 4.5 0 0112 6.75h9.75z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 17.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 2.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
                   </svg>
                 ),
               },
@@ -262,7 +260,7 @@ export default function Home() {
                 desc: "After the holidays, we carefully take down your lights. If you purchased your lights, we offer convenient storage for a nominal annual fee.",
                 icon: (
                   <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m6 4.125l2.25 2.25m0 0l2.25 2.25M12 11.625l2.25-2.25M12 11.625l-2.25 2.25M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
                   </svg>
                 ),
               },
