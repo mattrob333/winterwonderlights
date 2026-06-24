@@ -56,8 +56,10 @@ export default function AboutPage() {
                   { value: "1,000,000+", label: "Lights Installed" },
                   { value: "4.6/5", label: "Google Rating" },
                 ].map((stat) => (
-                  <div key={stat.label} className="bg-gray-50 rounded-xl p-4 text-center border border-gray-100">
-                    <div className="text-2xl font-bold text-gold-600">{stat.value}</div>
+                  <div key={stat.label} className="bg-gray-50 rounded-xl p-3 sm:p-4 text-center border border-gray-100">
+                    <div className="text-xl sm:text-2xl font-bold text-gold-600 leading-tight break-all">
+                      {stat.value}
+                    </div>
                     <div className="text-xs text-gray-500 mt-1">{stat.label}</div>
                   </div>
                 ))}

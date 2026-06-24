@@ -72,9 +72,11 @@ export default function Home() {
                 ].map((stat) => (
                   <div
                     key={stat.label}
-                    className="bg-white/5 backdrop-blur-sm rounded-xl p-4 sm:p-5 text-center border border-white/10"
+                    className="bg-white/5 backdrop-blur-sm rounded-xl p-3 sm:p-5 text-center border border-white/10"
                   >
-                    <div className="text-2xl sm:text-3xl font-bold text-gold-400">{stat.value}</div>
+                    <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-gold-400 leading-tight break-all">
+                      {stat.value}
+                    </div>
                     <div className="text-xs sm:text-sm text-gray-400 mt-1">{stat.label}</div>
                   </div>
                 ))}
