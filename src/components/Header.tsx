@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -21,9 +22,14 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-xl sm:text-2xl font-bold text-white tracking-tight group-hover:text-gold-400 transition-colors">
-              <span className="text-gold-400">✦</span> Winter Wonder Lights
-            </span>
+            <Image
+              src="/images/wwl-logo.png"
+              alt="Winter Wonder Lights"
+              width={200}
+              height={60}
+              className="h-10 sm:h-12 w-auto object-contain brightness-0 invert"
+              priority
+            />
           </Link>
 
           {/* Desktop navigation */}

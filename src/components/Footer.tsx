@@ -1,9 +1,22 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-navy-950 border-t border-navy-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        {/* Logo */}
+        <div className="flex justify-center mb-10">
+          <Link href="/">
+            <Image
+              src="/images/wwl-logo.png"
+              alt="Winter Wonder Lights"
+              width={220}
+              height={70}
+              className="h-12 sm:h-14 w-auto object-contain brightness-0 invert"
+            />
+          </Link>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           {/* Navigation */}
           <div>
