@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -54,18 +55,29 @@ export default function GalleryPage() {
       <section className="bg-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects.map((project) => (
+            {projects.map((project, i) => (
               <div
                 key={project.name}
-                className="group relative aspect-[4/3] rounded-xl overflow-hidden bg-gradient-to-br from-navy-800 to-navy-900 border border-navy-700/30 cursor-pointer hover:border-gold-500/50 transition-all"
+                className="group relative aspect-[4/3] rounded-xl overflow-hidden cursor-pointer"
               >
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-gray-500 p-6">
-                    <svg className="w-12 h-12 mx-auto mb-3 text-gold-500/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.41a2.25 2.25 0 013.182 0l2.909 2.91m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                    </svg>
-                  </div>
-                </div>
+                <Image
+                  src={
+                    [
+                      "/images/about-section.jpg",
+                      "/images/commercial-lighting.jpg",
+                      "/images/craftsman-home.jpg",
+                      "/images/gallery-1.jpg",
+                      "/images/gallery-2.jpg",
+                      "/images/gallery-3.jpg",
+                      "/images/about-section.jpg",
+                      "/images/commercial-lighting.jpg",
+                      "/images/craftsman-home.jpg",
+                    ][i]
+                  }
+                  alt={project.name}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
                 {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5">
                   <div>

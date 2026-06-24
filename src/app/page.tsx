@@ -1,19 +1,20 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       {/* ===== HERO ===== */}
-      <section className="relative bg-navy-900 overflow-hidden">
-        {/* Background gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950" />
-        <div
-          className="absolute inset-0 opacity-20"
-          style={{
-            backgroundImage:
-              "radial-gradient(ellipse at 20% 50%, #eab308 0%, transparent 50%), radial-gradient(ellipse at 80% 0%, #38bdf8 0%, transparent 40%)",
-          }}
+      <section className="relative bg-navy-900 overflow-hidden min-h-[70vh]">
+        {/* Background image */}
+        <Image
+          src="/images/hero-bg.jpg"
+          alt="Luxury home with professional holiday lighting"
+          fill
+          className="object-cover"
+          priority
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-900/85 via-navy-900/70 to-navy-900/50" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -180,14 +181,13 @@ export default function Home() {
                 </svg>
               </Link>
             </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center">
-              <div className="text-center text-gray-500 p-8">
-                <svg className="w-16 h-16 mx-auto mb-4 text-gold-500/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.41a2.25 2.25 0 013.182 0l2.909 2.91m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                </svg>
-                <p className="text-sm">Photo coming soon</p>
-                <p className="text-xs text-gray-600 mt-1">[Replace with WWLG property photo]</p>
-              </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image
+                src="/images/about-section.jpg"
+                alt="Luxury home exterior with professional holiday lighting"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -326,14 +326,13 @@ export default function Home() {
       <section className="bg-white py-16 sm:py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center order-last lg:order-first">
-              <div className="text-center text-gray-500 p-8">
-                <svg className="w-16 h-16 mx-auto mb-4 text-gold-500/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-                </svg>
-                <p className="text-sm">Photo coming soon</p>
-                <p className="text-xs text-gray-600 mt-1">[Replace with holiday lighting photo]</p>
-              </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image
+                src="/images/craftsman-home.jpg"
+                alt="Inviting home with professional holiday lighting"
+                fill
+                className="object-cover"
+              />
             </div>
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 leading-tight">
@@ -417,17 +416,21 @@ export default function Home() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
+            {[
+              { src: "/images/gallery-1.jpg", alt: "Colonial home with elegant holiday lighting" },
+              { src: "/images/gallery-2.jpg", alt: "Modern home with sleek holiday lighting" },
+              { src: "/images/gallery-3.jpg", alt: "Traditional home with colorful Christmas lights" },
+            ].map((img, i) => (
               <div
                 key={i}
-                className="aspect-[4/3] rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center border border-navy-700/30"
+                className="relative aspect-[4/3] rounded-xl overflow-hidden"
               >
-                <div className="text-center text-gray-500 p-6">
-                  <svg className="w-10 h-10 mx-auto mb-2 text-gold-500/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.41a2.25 2.25 0 013.182 0l2.909 2.91m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                  </svg>
-                  <p className="text-sm">Gallery image {i}</p>
-                </div>
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-500"
+                />
               </div>
             ))}
           </div>
