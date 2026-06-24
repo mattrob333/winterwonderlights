@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -146,7 +145,7 @@ export default function ServicesPage() {
                     i % 2 === 1 ? "lg:col-start-1" : ""
                   }`}
                 >
-                  <Image
+                  <img
                     src={
                       [
                         "/images/about-section.jpg",
@@ -158,9 +157,7 @@ export default function ServicesPage() {
                       ][i]
                     }
                     alt={service.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover"
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
               </div>
