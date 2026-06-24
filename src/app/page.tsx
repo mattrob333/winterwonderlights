@@ -64,7 +64,7 @@ export default function Home() {
             {/* Right: Stats + Quick Quote */}
             <div className="space-y-6">
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
                 {[
                   { value: "10,000+", label: "Homes Brightened" },
                   { value: "1,000,000+", label: "Lights Installed" },
@@ -72,9 +72,9 @@ export default function Home() {
                 ].map((stat) => (
                   <div
                     key={stat.label}
-                    className="bg-white/5 backdrop-blur-sm rounded-xl p-3 sm:p-5 text-center border border-white/10"
+                    className="bg-white/5 backdrop-blur-sm rounded-xl py-3 px-2 sm:py-5 sm:px-4 text-center border border-white/10"
                   >
-                    <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-gold-400 leading-tight break-all">
+                    <div className="text-lg sm:text-2xl lg:text-3xl font-bold text-gold-400 whitespace-nowrap">
                       {stat.value}
                     </div>
                     <div className="text-xs sm:text-sm text-gray-400 mt-1">{stat.label}</div>

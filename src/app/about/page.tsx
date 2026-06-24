@@ -50,14 +50,14 @@ export default function AboutPage() {
                 to ensure your display is safe, stunning, and energy-efficient.
               </p>
 
-              <div className="grid grid-cols-3 gap-4 mt-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mt-8">
                 {[
                   { value: "10,000+", label: "Homes Brightened" },
                   { value: "1,000,000+", label: "Lights Installed" },
                   { value: "4.6/5", label: "Google Rating" },
                 ].map((stat) => (
-                  <div key={stat.label} className="bg-gray-50 rounded-xl p-3 sm:p-4 text-center border border-gray-100">
-                    <div className="text-xl sm:text-2xl font-bold text-gold-600 leading-tight break-all">
+                  <div key={stat.label} className="bg-gray-50 rounded-xl py-3 px-2 sm:py-4 sm:px-3 text-center border border-gray-100">
+                    <div className="text-lg sm:text-xl lg:text-2xl font-bold text-gold-600 whitespace-nowrap">
                       {stat.value}
                     </div>
                     <div className="text-xs text-gray-500 mt-1">{stat.label}</div>
