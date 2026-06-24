@@ -142,7 +142,7 @@ export default function ServicesPage() {
                   </ul>
                 </div>
                 <div
-                  className={`aspect-[4/3] rounded-2xl overflow-hidden ${
+                  className={`relative aspect-[4/3] rounded-2xl overflow-hidden ${
                     i % 2 === 1 ? "lg:col-start-1" : ""
                   }`}
                 >
