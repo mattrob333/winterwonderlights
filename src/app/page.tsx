@@ -213,32 +213,58 @@ export default function Home() {
               {
                 title: "Residential Christmas Lighting",
                 desc: "Stay off the ladder this year! Our experts handle every detail — custom designs, professional installation, and removal. Make your home the star of the neighborhood.",
-                icon: "🏠",
+                icon: (
+                  <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+                  </svg>
+                ),
               },
               {
                 title: "Commercial Christmas Lighting",
                 desc: "Make your business sparkle with professional Christmas light installation that's safe and stress-free. Attract customers and create a festive atmosphere.",
-                icon: "🏢",
+                icon: (
+                  <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                  </svg>
+                ),
               },
               {
                 title: "Custom Holiday Designs",
                 desc: "Unique, tailored lighting designs that match your vision. From elegant white lights to colorful displays, we create the perfect look for your property.",
-                icon: "✨",
+                icon: (
+                  <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                  </svg>
+                ),
               },
               {
                 title: "Lighting Maintenance",
                 desc: "If you experience any issues during the season, just call, text, or email us and we'll schedule a repair promptly. We'll replace bulbs at no charge for events.",
-                icon: "🔧",
+                icon: (
+                  <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-7.25 7.25a2.119 2.119 0 01-3-3l7.25-7.25m3.24 3.24a7.5 7.5 0 00-3.24-9.61 6.6 6.6 0 01-.24 1.5 5.25 5.25 0 006.6 6.6 6.6 6.6 0 01-1.5.24l.24.01zm1.5 1.5a7.5 7.5 0 009.61-3.24 6.6 6.6 0 01-1.5-.24 5.25 5.25 0 00-6.6 6.6 6.6 6.6 0 01.24 1.5l.25-.01z" />
+                  </svg>
+                ),
               },
               {
                 title: "Professional Installation",
                 desc: "We use commercial-grade lighting supplies with custom-fitted lights for each section. All electrical work is handled by our trained team with light-sensitive timers.",
-                icon: "🛠️",
+                icon: (
+                  <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c.076.73.034 1.472-.13 2.195a3.001 3.001 0 00-3.653 3.653c-.723.164-1.464.206-2.195.13a4.5 4.5 0 014.484-4.884 4.5 4.5 0 00-4.087-3.836 2.999 2.999 0 00-3.653-3.653 5.294 5.294 0 01-.13-2.195A4.5 4.5 0 0112 6.75h9.75z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 17.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 2.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                  </svg>
+                ),
               },
               {
                 title: "Storage &amp; Takedown",
                 desc: "After the holidays, we carefully take down your lights. If you purchased your lights, we offer convenient storage for a nominal annual fee.",
-                icon: "📦",
+                icon: (
+                  <svg className="w-8 h-8 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m6 4.125l2.25 2.25m0 0l2.25 2.25M12 11.625l2.25-2.25M12 11.625l-2.25 2.25M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                  </svg>
+                ),
               },
             ].map((service) => (
               <div
