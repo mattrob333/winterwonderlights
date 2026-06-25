@@ -1,0 +1,88 @@
+{
+  "sections": [
+    "header",
+    "nav",
+    "main",
+    "footer"
+  ],
+  "collections": [
+    {
+      "id": "col1",
+      "count": 6,
+      "itemTag": "a",
+      "label": "nav items"
+    },
+    {
+      "id": "col2",
+      "count": 6,
+      "itemTag": "section",
+      "label": "main items"
+    },
+    {
+      "id": "col3",
+      "count": 4,
+      "itemTag": "div",
+      "label": "main items"
+    },
+    {
+      "id": "col4",
+      "count": 6,
+      "itemTag": "div",
+      "label": "main items"
+    },
+    {
+      "id": "col5",
+      "count": 4,
+      "itemTag": "div",
+      "label": "main items"
+    },
+    {
+      "id": "col6",
+      "count": 4,
+      "itemTag": "div",
+      "label": "main items"
+    },
+    {
+      "id": "col7",
+      "count": 3,
+      "itemTag": "div",
+      "label": "main items"
+    },
+    {
+      "id": "col8",
+      "count": 6,
+      "itemTag": "details",
+      "label": "main items"
+    },
+    {
+      "id": "col9",
+      "count": 3,
+      "itemTag": "div",
+      "label": "footer items"
+    },
+    {
+      "id": "col10",
+      "count": 6,
+      "itemTag": "a",
+      "label": "nav items"
+    },
+    {
+      "id": "col11",
+      "count": 2,
+      "itemTag": "a",
+      "label": "footer items"
+    },
+    {
+      "id": "col12",
+      "count": 2,
+      "itemTag": "a",
+      "label": "footer items"
+    },
+    {
+      "id": "col13",
+      "count": 2,
+      "itemTag": "a",
+      "label": "footer items"
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "cms-1": {
+    "type": "text",
+    "label": "Link: \"Home\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-2": {
+    "type": "text",
+    "label": "Link: \"Services\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-3": {
+    "type": "text",
+    "label": "Link: \"About\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-4": {
+    "type": "text",
+    "label": "Link: \"Gallery\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-5": {
+    "type": "text",
+    "label": "Link: \"FAQ\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-6": {
+    "type": "text",
+    "label": "Link: \"Contact\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-7": {
+    "type": "text",
+    "label": "Link: \"(678) 782-9002\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-8": {
+    "type": "text",
+    "label": "Text: \"Magical Holiday Lighting\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-9": {
+    "type": "text",
+    "label": "Text: \"Get a professional installation of C…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-10": {
+    "type": "text",
+    "label": "Link: \"Get a Free Estimate\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-11": {
+    "type": "text",
+    "label": "Link: \"Learn More\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-12": {
+    "type": "text",
+    "label": "Link: \"Call (678) 782-9002\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-13": {
+    "type": "text",
+    "label": "Heading: \"Get Your Free Estimate\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-14": {
+    "type": "text",
+    "label": "Button: \"Get a Free Estimate\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-15": {
+    "type": "text",
+    "label": "Text: \"Trusted by homeowners and businesses…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-16": {
+    "type": "text",
+    "label": "Text: \"✓ Licensed & Insured\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-17": {
+    "type": "text",
+    "label": "Text: \"✓ 10+ Years Experience\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-18": {
+    "type": "text",
+    "label": "Text: \"✓ Commercial-Grade Lights\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-19": {
+    "type": "text",
+    "label": "Text: \"✓ Free Estimates\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-20": {
+    "type": "text",
+    "label": "Text: \"Christmas and Holiday Lights\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-21": {
+    "type": "text",
+    "label": "Text: \"Since 2006, we've specialized in pro…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-22": {
+    "type": "text",
+    "label": "Text: \"Our team of lighting experts handles…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-23": {
+    "type": "text",
+    "label": "Text: \"Custom designs tailored to your home…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-24": {
+    "type": "text",
+    "label": "Text: \"Commercial-grade LED lighting for du…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-25": {
+    "type": "text",
+    "label": "Text: \"Professional installation by trained…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-26": {
+    "type": "text",
+    "label": "Text: \"Hassle-free takedown and storage opt…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-27": {
+    "type": "text",
+    "label": "Link: \"Learn More About Us\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-28": {
+    "type": "text",
+    "label": "Heading: \"Our Holiday Lighting Services\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-29": {
+    "type": "text",
+    "label": "Text: \"From cozy homes to large commercial …\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-30": {
+    "type": "text",
+    "label": "Heading: \"Residential Christmas Lighting\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-31": {
+    "type": "text",
+    "label": "Text: \"Stay off the ladder this year! Our e…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-32": {
+    "type": "text",
+    "label": "Heading: \"Commercial Christmas Lighting\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-33": {
+    "type": "text",
+    "label": "Text: \"Make your business sparkle with prof…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-34": {
+    "type": "text",
+    "label": "Heading: \"Custom Holiday Designs\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-35": {
+    "type": "text",
+    "label": "Text: \"Unique, tailored lighting designs th…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-36": {
+    "type": "text",
+    "label": "Heading: \"Lighting Maintenance\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-37": {
+    "type": "text",
+    "label": "Text: \"If you experience any issues during …\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-38": {
+    "type": "text",
+    "label": "Heading: \"Professional Installation\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-39": {
+    "type": "text",
+    "label": "Text: \"We use commercial-grade lighting sup…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-40": {
+    "type": "text",
+    "label": "Heading: \"Storage &amp; Takedown\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-41": {
+    "type": "text",
+    "label": "Text: \"After the holidays, we carefully tak…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-42": {
+    "type": "text",
+    "label": "Link: \"View All Services\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-43": {
+    "type": "text",
+    "label": "Heading: \"How It Works\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-44": {
+    "type": "text",
+    "label": "Text: \"From consultation to sparkle — our p…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-45": {
+    "type": "text",
+    "label": "Text: \"01\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-46": {
+    "type": "text",
+    "label": "Heading: \"Quote\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-47": {
+    "type": "text",
+    "label": "Text: \"Our lighting experts will visit your…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-48": {
+    "type": "text",
+    "label": "Text: \"02\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-49": {
+    "type": "text",
+    "label": "Heading: \"Professional Installation\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-50": {
+    "type": "text",
+    "label": "Text: \"We use commercial-grade lighting sup…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-51": {
+    "type": "text",
+    "label": "Text: \"03\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-52": {
+    "type": "text",
+    "label": "Heading: \"Maintenance\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-53": {
+    "type": "text",
+    "label": "Text: \"If any issues arise, simply call, te…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-54": {
+    "type": "text",
+    "label": "Text: \"04\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-55": {
+    "type": "text",
+    "label": "Heading: \"Uninstall &amp; Storage\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-56": {
+    "type": "text",
+    "label": "Text: \"After New Year's (or earlier upon re…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-57": {
+    "type": "text",
+    "label": "Link: \"Schedule My Inspection\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-58": {
+    "type": "text",
+    "label": "Text: \"Winter Wonder Lights?\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-59": {
+    "type": "text",
+    "label": "Text: \"We bring over a decade of experience…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-60": {
+    "type": "text",
+    "label": "Heading: \"10+ Years Experience\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-61": {
+    "type": "text",
+    "label": "Text: \"Serving Atlanta since 2016 with prov…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-62": {
+    "type": "text",
+    "label": "Heading: \"Commercial-Grade Materials\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-63": {
+    "type": "text",
+    "label": "Text: \"Premium LED lights and commercial-gr…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-64": {
+    "type": "text",
+    "label": "Heading: \"Full-Service Convenience\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-65": {
+    "type": "text",
+    "label": "Text: \"Design, install, maintain, remove, a…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-66": {
+    "type": "text",
+    "label": "Heading: \"Licensed &amp; Insured\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-67": {
+    "type": "text",
+    "label": "Text: \"Fully licensed and insured for your …\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-68": {
+    "type": "text",
+    "label": "Heading: \"Proudly Serving Metro Atlanta & Nort…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-69": {
+    "type": "text",
+    "label": "Text: \"We provide professional holiday ligh…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-70": {
+    "type": "text",
+    "label": "Text: \"Atlanta\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-71": {
+    "type": "text",
+    "label": "Text: \"Marietta\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-72": {
+    "type": "text",
+    "label": "Text: \"Alpharetta\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-73": {
+    "type": "text",
+    "label": "Text: \"Roswell\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-74": {
+    "type": "text",
+    "label": "Text: \"Sandy Springs\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-75": {
+    "type": "text",
+    "label": "Text: \"Buckhead\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-76": {
+    "type": "text",
+    "label": "Text: \"Dunwoody\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-77": {
+    "type": "text",
+    "label": "Text: \"Cumming\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-78": {
+    "type": "text",
+    "label": "Text: \"Johns Creek\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-79": {
+    "type": "text",
+    "label": "Text: \"Suwanee\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-80": {
+    "type": "text",
+    "label": "Text: \"Woodstock\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-81": {
+    "type": "text",
+    "label": "Text: \"Kennesaw\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-82": {
+    "type": "text",
+    "label": "Heading: \"Featured Projects\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-83": {
+    "type": "text",
+    "label": "Text: \"See how we've transformed homes and …\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-84": {
+    "type": "text",
+    "label": "Link: \"View Full Gallery\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-85": {
+    "type": "text",
+    "label": "Heading: \"Frequently Asked Questions\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-86": {
+    "type": "text",
+    "label": "Text: \"Everything you need to know about ou…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-87": {
+    "type": "text",
+    "label": "Text: \"How much does holiday light installa…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-88": {
+    "type": "text",
+    "label": "Text: \"Costs vary based on the size of your…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-89": {
+    "type": "text",
+    "label": "Text: \"Do I need to be home for installation?\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-90": {
+    "type": "text",
+    "label": "Text: \"Not necessarily. Once we've complete…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-91": {
+    "type": "text",
+    "label": "Text: \"What type of lights do you use?\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-92": {
+    "type": "text",
+    "label": "Text: \"We use commercial-grade LED lights t…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-93": {
+    "type": "text",
+    "label": "Text: \"Do you service commercial properties?\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-94": {
+    "type": "text",
+    "label": "Text: \"Yes! We provide holiday lighting for…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-95": {
+    "type": "text",
+    "label": "Text: \"When should I schedule my installati…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-96": {
+    "type": "text",
+    "label": "Text: \"We recommend scheduling in early fal…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-97": {
+    "type": "text",
+    "label": "Text: \"What happens if a bulb burns out?\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-98": {
+    "type": "text",
+    "label": "Text: \"It's common for bulbs to go out duri…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-99": {
+    "type": "text",
+    "label": "Link: \"View All FAQs\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-100": {
+    "type": "text",
+    "label": "Heading: \"Ready to Have Your Holiday Lights Do…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-101": {
+    "type": "text",
+    "label": "Text: \"Fill out the contact form, and one o…\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-102": {
+    "type": "text",
+    "label": "Link: \"(678) 782-9002\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-103": {
+    "type": "text",
+    "label": "Text: \"Mon – Fri: 9:00 am – 5:00 pm\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-104": {
+    "type": "text",
+    "label": "Link: \"Get a Free Estimate\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-105": {
+    "type": "text",
+    "label": "Link: \"View Our Services\"",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-106": {
+    "type": "text",
+    "label": "Heading: \"Menu\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-107": {
+    "type": "text",
+    "label": "Link: \"Home\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-108": {
+    "type": "text",
+    "label": "Link: \"Services\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-109": {
+    "type": "text",
+    "label": "Link: \"About\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-110": {
+    "type": "text",
+    "label": "Link: \"Gallery\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-111": {
+    "type": "text",
+    "label": "Link: \"FAQ\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-112": {
+    "type": "text",
+    "label": "Link: \"Contact\"",
+    "group": "Nav",
+    "rich": false,
+    "allow": []
+  },
+  "cms-113": {
+    "type": "text",
+    "label": "Heading: \"Business Hours\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-114": {
+    "type": "text",
+    "label": "Text: \"Mon – Fri: 9:00 am – 5:00 pm\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-115": {
+    "type": "text",
+    "label": "Text: \"Saturday: Closed\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-116": {
+    "type": "text",
+    "label": "Text: \"Sunday: Closed\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-117": {
+    "type": "text",
+    "label": "Heading: \"Quick Links\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-118": {
+    "type": "text",
+    "label": "Link: \"Privacy Policy\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-119": {
+    "type": "text",
+    "label": "Link: \"Terms of Service\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-120": {
+    "type": "text",
+    "label": "Heading: \"Contact\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-121": {
+    "type": "text",
+    "label": "Link: \"(678) 782-9002\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-122": {
+    "type": "text",
+    "label": "Link: \"info@winterwonderlightsga.com\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-123": {
+    "type": "text",
+    "label": "Text: \"Serving Metro Atlanta & North Georgia\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-124": {
+    "type": "text",
+    "label": "Link: \"Get a Free Estimate\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-125": {
+    "type": "text",
+    "label": "Text: \"© 2026 by Bright Services LLC. All r…\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-126": {
+    "type": "text",
+    "label": "Link: \"Privacy Policy\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-127": {
+    "type": "text",
+    "label": "Link: \"Terms of Service\"",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-128": {
+    "type": "image",
+    "label": "Image: Winter Wonder Lights",
+    "group": "Header",
+    "rich": false,
+    "allow": []
+  },
+  "cms-129": {
+    "type": "image",
+    "label": "Image: Luxury home with professional holiday lig",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-130": {
+    "type": "image",
+    "label": "Image: Luxury home exterior with professional ho",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-131": {
+    "type": "image",
+    "label": "Image: Inviting home with professional holiday l",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-132": {
+    "type": "image",
+    "label": "Image: Colonial home with elegant holiday lighti",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-133": {
+    "type": "image",
+    "label": "Image: Modern home with sleek holiday lighting",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-134": {
+    "type": "image",
+    "label": "Image: Traditional home with colorful Christmas ",
+    "group": "Main",
+    "rich": false,
+    "allow": []
+  },
+  "cms-135": {
+    "type": "image",
+    "label": "Image: Winter Wonder Lights",
+    "group": "Footer",
+    "rich": false,
+    "allow": []
+  },
+  "cms-136": {
+    "type": "text",
+    "label": "Browser tab title",
+    "group": "SEO & social",
+    "rich": false,
+    "allow": []
+  },
+  "cms-137": {
+    "type": "meta-attr",
+    "label": "Google meta description",
+    "group": "SEO & social",
+    "rich": false,
+    "allow": []
+  },
+  "cms-138": {
+    "type": "meta-attr",
+    "label": "Social share title",
+    "group": "SEO & social",
+    "rich": false,
+    "allow": []
+  },
+  "cms-139": {
+    "type": "meta-attr",
+    "label": "Social share description",
+    "group": "SEO & social",
+    "rich": false,
+    "allow": []
+  },
+  "cms-140": {
+    "type": "meta-attr",
+    "label": "Twitter card title",
+    "group": "SEO & social",
+    "rich": false,
+    "allow": []
+  },
+  "cms-141": {
+    "type": "meta-attr",
+    "label": "Twitter card description",
+    "group": "SEO & social",
+    "rich": false,
+    "allow": []
+  }
+}

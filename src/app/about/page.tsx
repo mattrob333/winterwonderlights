@@ -71,6 +71,7 @@ export default function AboutPage() {
                 alt="Winter Wonder Lights team and property"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
+                unoptimized
                 className="object-cover"
               />
             </div>

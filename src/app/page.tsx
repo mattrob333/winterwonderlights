@@ -12,6 +12,7 @@ export default function Home() {
           alt="Luxury home with professional holiday lighting"
           fill
           sizes="100vw"
+          unoptimized
           className="object-cover"
           priority
         />
@@ -190,6 +191,7 @@ export default function Home() {
                 alt="Luxury home exterior with professional holiday lighting"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
+                unoptimized
                 className="object-cover"
               />
             </div>
@@ -360,6 +362,7 @@ export default function Home() {
                 alt="Inviting home with professional holiday lighting"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
+                unoptimized
                 className="object-cover"
               />
             </div>
@@ -459,6 +462,7 @@ export default function Home() {
                   alt={img.alt}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
+                  unoptimized
                   className="object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
